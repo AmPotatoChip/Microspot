@@ -1,2 +1,2 @@
-pi@microspot
+pi@microspot.local
 pass - micro
