@@ -1,2 +1,5 @@
+running ubuntu 20.04
+running ros 2 foxy
+
 pi@microspot.local
 pass - micro
