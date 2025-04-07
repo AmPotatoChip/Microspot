@@ -1,5 +1,0 @@
-running ubuntu 20.04
-running ros 2 foxy
-
-pi@microspot.local // if this is not supproted just pi@<ip address>
-pass - micro
