@@ -1,1 +1,28 @@
+dependencies used:
+  python3-pip \
+  python3-rosdep \
+  python3-colcon-common-extensions \
+  ros-foxy-rclpy \
+  ros-foxy-serial-driver \
+  ros-foxy-tf2 \
+  ros-foxy-tf2-ros \
+  ros-foxy-tf-transformations
 
+usful commands 
+  colcon build // updates the packages
+  ros2 run esp32_interface serial_node // run the sending node
+  ros2 topic pub /angles std_msgs/msg/Float32MultiArray "{data: [0, 0, 0, 0, 0, 0]}" // test to see if the esp32 is picking up signals from the usb connection
+
+
+
+esp32_node
+ros2_ws/
+└── src/
+    └── esp32_interface/
+        ├── esp32_interface/
+        │   ├── __init__.py
+        │   └── serial_node.py    //here is where the communcation goes
+        ├── package.xml
+        ├── setup.py
+        └── resource/
+            └── esp32_serial_node
